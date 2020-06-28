@@ -1,6 +1,5 @@
 # kusogayoh
-クソが代　クソが代は
-[クソが代]のアーカイブ
+クソが代　クソが代は　[クソが代]のアーカイブとなりて　[跡地]
 
 ## 変遷
 
@@ -35,3 +34,4 @@
 ```
 
 [クソが代]: https://shindanmaker.com/893413
+[跡地]: https://web.archive.org/web/20190502082640/https://shindanmaker.com/893413
