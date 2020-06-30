@@ -10,12 +10,12 @@ function _extract(){
     echo -n 'overwhite ok?(y/n):' >&2
     read -r f
     [[ "${f}" -eq 'y' ]] && {
-      grep -oP "${1}" "${FILE}" | sed -r 's/[　 ]//g' > "${SAVEPATH}"
+      grep -oP "${1}" "${FILE}" | sed -r 's/[　 ]//g' | sort | uniq > "${SAVEPATH}"
     } || {
       echo 'skipped.'
     }
   else
-    grep -oP "${1}" "${FILE}" | sed -r 's/[　 ]//g' > "${SAVEPATH}"
+    grep -oP "${1}" "${FILE}" | sed -r 's/[　 ]//g' | sort | uniq > "${SAVEPATH}"
   fi
 }
 
