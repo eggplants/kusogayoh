@@ -13,6 +13,10 @@
 
 ## 変遷
 
+### ランダム部分
+
+`title`, `lyricist`, `composer`, `occupation`, `other`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `until`
+
 ### 初期(11行)
 
 ```text
