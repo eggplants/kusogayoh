@@ -21,11 +21,10 @@ function _extract(){
 
 function _chooser(){
   case "${1}" in
-  title      ) _extract '^(?!が代).*?(が代)(?=<br><br>)'                    title      ;;
+  title      ) _extract '[^<]+?(が代)(?=<br><br>作詞:)'                     user       ;;
   person     ) _extract '(?<=:)[^/]+?(?=<br>)'                              person     ;;
   occupation ) _extract '(?<=<br>)[^(作詞)(作曲)(https):]+(?=:)'            occupation ;;
-  era1       ) _extract '(?<=<br><br>)[^(作詞)]*?(?=が代は )'               era1       ;;
-  era2       ) _extract '((?<=<br><br>)([^代]+)(?=代に)|^([^代]+)(?=代に))' era2       ;;
+  era        ) _extract '((?<=<br><br>)([^代]+)(?=代に)|^([^代]+)(?=代に))' era        ;;
   kuso       ) _extract '' kuso                                                        ;;
   trans      ) _extract '(?<=<br><br>)[^<]+?(?=となりて<br><br>)'           trans      ;;
   conqueror  ) _extract '' conqueror                                                   ;;
@@ -37,7 +36,7 @@ esac
 function main(){
   mkdir -p "${SAVE}"
   local val
-  val=(title person occupation era1 era2 kuso trans conqueror till)
+  val=(user person occupation era kuso trans conqueror till)
   for v in "${val[@]}"
   {
     echo "Now: ${v}" >&2
