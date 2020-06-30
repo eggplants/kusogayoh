@@ -15,7 +15,7 @@
 
 ### ランダム部分
 
-`title`, `person`, `occupation`, `era1`, `kuso`, `era2`, `trans`, `conqueror`, `till`
+`title`, `person`, `occupation`, `era1`, `era2`, `kuso`, `trans`, `conqueror`, `till`
 
 ### 初期(11行)
 
