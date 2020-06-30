@@ -15,7 +15,7 @@
 
 ### ランダム部分
 
-`title`, `lyricist`, `composer`, `occupation`, `other`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `until`
+`title`, `lyricist`, `composer`, `occupation`, `other`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `till`
 
 ### 初期(11行)
 
@@ -32,7 +32,7 @@
 
 {trans}となりて
 
-{conqueror}に{until}まで
+{conqueror}に{till}まで
 https://shindanmaker.com/893413
 ```
 
@@ -49,7 +49,7 @@ https://shindanmaker.com/893413
 
 {trans}となりて
 
-{conqueror}に{until}まで
+{conqueror}に{till}まで
 https://shindanmaker.com/893413
 ```
 
