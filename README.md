@@ -15,7 +15,7 @@
 
 ### ランダム部分
 
-`title`, `person`, `occupation`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `till`
+`title`, `person`, `occupation`, `era1`, `kuso`, `era2`, `trans`, `conqueror`, `till`
 
 ### 初期(11行)
 
@@ -28,7 +28,7 @@
 
 {era1}が代は
 
-{era2}代に　{era3}代に
+{era2}代に　{kuso}{era2}代に
 
 {trans}となりて
 
@@ -45,7 +45,7 @@ https://shindanmaker.com/893413
 作曲:{person}
 {occupation}:{person}
 
-{era1}が代は {era2}代に{era3}代に
+{era1}が代は {era2}代に{kuso}{era2}代に
 
 {trans}となりて
 
