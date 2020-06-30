@@ -15,7 +15,8 @@
 
 ### ランダム部分
 
-`title`, `person`, `occupation`, `era1`, `era2`, `kuso`, `trans`, `conqueror`, `till`
+- 構成は`title`, `person`, `occupation`, `era1`, `era2`, `kuso`, `trans`, `conqueror`, `till`
+- `trans`と`conqueror`は同一群からのランダム値
 
 ### 初期(11行)
 
