@@ -16,6 +16,7 @@
 ### ランダム部分
 
 - 構成は`title`, `person`, `occupation`, `era1`, `era2`, `kuso`, `trans`, `conqueror`, `till`
+- `title`は診断時のユーザ名入力の反映
 - `trans`と`conqueror`は同一群からのランダム値
 
 ### 初期(11行)
