@@ -21,7 +21,7 @@ function _extract(){
 
 function _chooser(){
   case "${1}" in
-  title      ) _extract '[^<]+?(が代)(?=<br><br>作詞:)'                     user       ;;
+  user       ) _extract '[^<]+?(が代)(?=<br><br>作詞:)'                     user       ;;
   person     ) _extract '(?<=:)[^/]+?(?=<br>)'                              person     ;;
   occupation ) _extract '(?<=<br>)[^(作詞)(作曲)(https):]+(?=:)'            occupation ;;
   era        ) _extract '((?<=<br><br>)([^代]+)(?=代に)|^([^代]+)(?=代に))' era        ;;
