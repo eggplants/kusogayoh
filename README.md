@@ -20,36 +20,36 @@
 ### 初期(11行)
 
 ```text
-{}が代
+{title}が代
 
-作詞:{}
-作曲:{}
-{}:{}
+作詞:{lyricist}
+作曲:{composer}
+{occupation}:{other}
 
-{}が代は
+{era1}が代は
 
-{}代に　{}代に
+{era2}代に　{era3}代に
 
-{}となりて
+{trans}となりて
 
-{}に{}まで
+{conqueror}に{until}まで
 https://shindanmaker.com/893413
 ```
 
 ### 後期~(8行)
 
 ```
-{}が代
+{title}が代
 
-作詞:{}
-作曲:{}
-{}:{}
+作詞:{lyricist}
+作曲:{composer}
+{occupation}:{other}
 
-{}が代は {}代に{}代に
+{era1}が代は {era2}代に{era3}代に
 
-{}となりて
+{trans}となりて
 
-{}に{}まで
+{conqueror}に{until}まで
 https://shindanmaker.com/893413
 ```
 
