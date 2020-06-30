@@ -29,6 +29,7 @@
 {}となりて
 
 {}に{}まで
+https://shindanmaker.com/893413
 ```
 
 ### 後期~(8行)
@@ -45,6 +46,7 @@
 {}となりて
 
 {}に{}まで
+https://shindanmaker.com/893413
 ```
 
 [クソが代]: https://shindanmaker.com/893413
