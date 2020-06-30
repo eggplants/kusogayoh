@@ -15,16 +15,16 @@
 
 ### ランダム部分
 
-`title`, `lyricist`, `composer`, `occupation`, `other`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `till`
+`title`, `person`, `occupation`, `era1`, `era2`, `era3`, `trans`, `conqueror`, `till`
 
 ### 初期(11行)
 
 ```text
 {title}が代
 
-作詞:{lyricist}
-作曲:{composer}
-{occupation}:{other}
+作詞:{person}
+作曲:{person}
+{occupation}:{person}
 
 {era1}が代は
 
@@ -41,9 +41,9 @@ https://shindanmaker.com/893413
 ```
 {title}が代
 
-作詞:{lyricist}
-作曲:{composer}
-{occupation}:{other}
+作詞:{person}
+作曲:{person}
+{occupation}:{person}
 
 {era1}が代は {era2}代に{era3}代に
 
